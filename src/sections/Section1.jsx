@@ -16,9 +16,7 @@ function Section1() {
         <NavMenu />
       </Row>
       <Row
-        className={`${
-          !isMobile ? "justify-content-center" : ""
-        }w-100 mx-0 d-flex  align-items-center flex-column`}
+        className="w-100 mx-0 d-flex justify-content-center align-items-center flex-column"
         style={{ height: "100vh" }}
       >
         <img
