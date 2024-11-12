@@ -8,13 +8,17 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons/faAngleDown";
 import downArrow from "../assets/downArrow.png";
 function Section1() {
+  const isMobile = window.matchMedia("(max-width: 768px)").matches;
+
   return (
     <section className="d-flex flex-column sec-1 w-100">
       <Row className="w-100 mx-0 d-flex justify-content-center">
         <NavMenu />
       </Row>
       <Row
-        className="w-100 mx-0 d-flex justify-content-center align-items-center flex-column"
+        className={`${
+          !isMobile ? "justify-content-center" : ""
+        }w-100 mx-0 d-flex  align-items-center flex-column`}
         style={{ height: "100vh" }}
       >
         <img
