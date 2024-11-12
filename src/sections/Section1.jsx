@@ -17,7 +17,7 @@ function Section1() {
       </Row>
       <Row
         className="w-100 mx-0 d-flex justify-content-center align-items-center flex-column"
-        style={{ height: "100vh" }}
+        style={{ height: `${isMobile ? "80vh" : "100vh"}` }}
       >
         <img
           src={heroLogo}
