@@ -54,12 +54,99 @@
   line-height: 26px;
   font-size: 16px;
 }
-
+.sec-3 {
+  background-color: #234752;
+}
+.sec-3-header {
+  font-size: 44px;
+  letter-spacing: 3px;
+  line-height: 50px;
+  width: 50%;
+  color: #ffffff;
+  font-family: "Bebas Neue", sans-serif;
+}
+.sec-3-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: justify;
+}
+.team-img {
+  width: 75%;
+  height: 75%;
+}
+.sec-4-header {
+  font-size: 44px;
+  letter-spacing: 3px;
+  line-height: 50px;
+  width: 40%;
+  color: #234752;
+  font-family: "Bebas Neue", sans-serif;
+}
+.apparel-card {
+  background-color: #234752;
+  border-radius: 10px;
+}
+.apparel-img {
+  max-width: 60%;
+  height: 145px;
+}
+.apparel-card-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 50px;
+  letter-spacing: 2px;
+}
+.features-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: #234752;
+  letter-spacing: 2px;
+  line-height: 24px;
+  font-weight: bold;
+}
+.features-sub-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: #234752;
+  letter-spacing: 2px;
+  line-height: 24px;
+}
 @media (max-width: 768px) {
   .hero-text {
     font-size: 28px;
   }
   .sec2-text {
     max-width: 80%;
+  }
+  .sec-3-header {
+    font-size: 35px;
+    letter-spacing: 3px;
+    line-height: 35px;
+    width: 100%;
+  }
+  .sec-3-text {
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    text-align: justify;
+  }
+  .team-img {
+    height: 100%;
+    padding-bottom: 50px;
+  }
+  .sec-4-header {
+    font-size: 35px;
+    letter-spacing: 1px;
+    line-height: 35px;
+    width: 100%;
+  }
+  .features-text,
+  .apparel-card-text {
+    letter-spacing: 0;
   }
 }
