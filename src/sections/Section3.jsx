@@ -1,7 +1,7 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import teamImg from "../assets/team.png";
+import teamImg from "../assets/tm.jpg";
 function Section3() {
   const isMobile = window.matchMedia("(max-width: 768px)").matches;
 
@@ -14,7 +14,7 @@ function Section3() {
           isMobile ? "justify-content-center align-items-center" : ""
         }`}
       >
-        <h1 className={`sec-3-header ${!isMobile ? "ms-5 mt-3 " : ""}`}>
+        <h1 className={`sec-3-header ${!isMobile ? "ms-5 mt-5 " : ""}`}>
           Styles For Every Occasion
         </h1>
         <p className={`sec-3-text ${!isMobile ? "ms-5 mt-4 " : ""}`}>
@@ -31,7 +31,7 @@ function Section3() {
         sm={12}
         className="d-flex justify-content-center align-items-center"
       >
-        <img src={teamImg} alt="image" className="team-img" />
+        <img src={teamImg} alt="image" className="team-img rounded-4" />
       </Col>
     </Row>
   );

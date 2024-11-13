@@ -17,11 +17,13 @@ function Section5() {
   return (
     <Row className={`sec-5 mx-0 mb-5 ${isMobile && "mt-5"}`}>
       <Row
-        className={`mx-0 d-flex flex-column px-5 py-4 ${
+        className={`mx-0 d-flex flex-column py-4 ${
           isMobile ? "justify-content-center align-items-center" : ""
         }`}
       >
-        <h1 className={`sec-5-header ${!isMobile ? "ms-5 mt-3 " : ""}`}>
+        <h1
+          className={`sec-5-header ${!isMobile ? "ms-4 mt-5 ps-4 " : "px-5"}`}
+        >
           Prints That Make a Statement
         </h1>
       </Row>

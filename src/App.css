@@ -131,7 +131,51 @@
 .print-card {
   height: 58%;
 }
-
+.fabric-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: #234752;
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 24px;
+}
+.fabric-img {
+  width: 109px;
+  height: 109px;
+}
+.fabric-sub-txt {
+  text-align: center;
+  width: fit-content;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 2px;
+}
+.fabric-sub-2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.sec-7 {
+  background-color: #234752;
+}
+.processImg {
+  max-width: 150px;
+  height: 105px;
+}
+.processText {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 51px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+.processCard {
+  width: fit-content;
+}
 @media (max-width: 768px) {
   .hero-text {
     font-size: 28px;
