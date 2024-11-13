@@ -31,6 +31,7 @@
   width: fit-content;
   letter-spacing: 2px;
 }
+
 @keyframes upDown {
   0%,
   100% {
@@ -116,6 +117,21 @@
   letter-spacing: 2px;
   line-height: 24px;
 }
+.sec-5 {
+  background-color: #234752;
+}
+.sec-5-header {
+  font-size: 44px;
+  letter-spacing: 3px;
+  line-height: 50px;
+  width: 35%;
+  color: #ffffff;
+  font-family: "Bebas Neue", sans-serif;
+}
+.print-card {
+  height: 58%;
+}
+
 @media (max-width: 768px) {
   .hero-text {
     font-size: 28px;
@@ -148,5 +164,17 @@
   .features-text,
   .apparel-card-text {
     letter-spacing: 0;
+  }
+  .print-img {
+    height: 280px !important;
+  }
+  .print-text {
+    margin: 10px 0 !important;
+  }
+  .sec-5-header {
+    font-size: 35px;
+    letter-spacing: 3px;
+    line-height: 35px;
+    width: 100%;
   }
 }
