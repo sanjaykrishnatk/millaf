@@ -6,11 +6,11 @@ import sub from "../assets/sub.png";
 import sp from "../assets/sp.png";
 import dp from "../assets/dp.png";
 import fp from "../assets/fp.png";
-import rp from "../assets/rp.png";
 import ip from "../assets/ip.png";
 import ep from "../assets/ep.png";
 import hdp from "../assets/hdp.png";
 import emb from "../assets/emb.png";
+import hdrp from "../assets/hdrp.png";
 function Section5() {
   const isMobile = window.matchMedia("(max-width: 768px)").matches;
 
@@ -86,7 +86,7 @@ function Section5() {
       </Row>
       <Row className="mx-0 px-5" style={{ marginTop: !isMobile && "-5%" }}>
         <Col md={4} sm={12} className="d-flex flex-column">
-          <img src={rp} alt="dtf" className="w-100 print-img" />
+          <img src={hdrp} alt="dtf" className="w-100 print-img" />
           <h6
             className="m-0 apparel-card-text text-center print-text"
             style={{
