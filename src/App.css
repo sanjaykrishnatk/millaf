@@ -176,6 +176,50 @@
 .processCard {
   width: fit-content;
 }
+.scroll-wrapper {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  padding: 0;
+}
+
+.logo-container {
+  display: flex;
+  animation: scroll 20s linear infinite;
+}
+
+.logo {
+  max-width: 150px;
+  max-height: 90px;
+  margin: 0 10px;
+  flex-shrink: 0;
+}
+.footer {
+  background-color: #234752;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.footer-text {
+  width: fit-content;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+.footer-certification-logo {
+  width: 100px;
+  height: 100px;
+}
 @media (max-width: 768px) {
   .hero-text {
     font-size: 28px;

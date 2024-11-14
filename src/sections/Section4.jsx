@@ -16,7 +16,7 @@ function Section4() {
   const isMobile = window.matchMedia("(max-width: 768px)").matches;
 
   return (
-    <Row className={`mx-0 mb-5 ${isMobile && "mt-5"}`}>
+    <Row className={`mx-0  ${isMobile && "mt-5"} ${!isMobile && "mb-5"}`}>
       <Row className="mx-0">
         <h1 className={`sec-4-header ${!isMobile ? "ms-4 mt-5 ps-4" : ""}`}>
           From Casual to Corporate: Custom Apparel for All
