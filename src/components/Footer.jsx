@@ -53,43 +53,43 @@ function Footer() {
           />
           <Row className="mx-0 d-flex flex-column  align-items-center">
             <div className="d-flex align-items-center">
-              <FontAwesomeIcon
-                icon={faWhatsapp}
-                style={{ width: "fit-content" }}
-                className="text-light ps-0 pe-2"
-              />
               <a
                 className="m-0 footer-text p-0"
                 style={{ textDecoration: "none" }}
                 href="https://wa.me/+918075578701"
               >
+                <FontAwesomeIcon
+                  icon={faWhatsapp}
+                  style={{ width: "fit-content" }}
+                  className="text-light ps-0 pe-2"
+                />
                 +91 8075578701{" "}
               </a>
             </div>
             <div className="d-flex align-items-center">
-              <FontAwesomeIcon
-                icon={faPhoneVolume}
-                style={{ width: "fit-content" }}
-                className="text-light ps-0 pe-2"
-              />
               <p className="m-0 footer-text p-0">
+                <FontAwesomeIcon
+                  icon={faPhoneVolume}
+                  style={{ width: "fit-content" }}
+                  className="text-light ps-0 pe-2"
+                />
                 +91 7025407081
                 <br />
-                +91 9495090780
+                &nbsp;&nbsp;&nbsp;&nbsp;+91 9495090780
               </p>
             </div>
           </Row>
           <Row className="mx-0 d-flex ">
-            <FontAwesomeIcon
-              icon={faEnvelope}
-              style={{ width: "fit-content" }}
-              className="text-light ps-0 pe-2"
-            />
             <a
               href="mailto:info@millarcreativelifestyle.com"
               className="m-0 footer-text p-0"
               style={{ textDecoration: "none" }}
             >
+              <FontAwesomeIcon
+                icon={faEnvelope}
+                style={{ width: "fit-content" }}
+                className="text-light ps-0 pe-2"
+              />
               info@millarcreativelifestyle.com
             </a>
             <p className="m-0 footer-text p-0">
