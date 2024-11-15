@@ -92,7 +92,7 @@ function Footer() {
             >
               info@millarcreativelifestyle.com
             </a>
-            <p className="m-0 footer-text p-0">
+            <p className="m-0 footer-text-2 p-0">
               GSTIN: 32AARCM2845FIZF
               <br />
               CIN NO: U13999KL2023PTC083459

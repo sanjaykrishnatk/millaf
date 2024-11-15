@@ -23,28 +23,28 @@ function Section4() {
         </h1>
       </Row>
       <Row className="mx-0 px-5">
-        <Col md={3} sm={12}>
+        <Col lg={3} md={12} sm={12}>
           <ApparelCard img={tshirt} text={"CREW NECK T - SHIRT"} />
         </Col>
-        <Col md={3} sm={12}>
+        <Col lg={3} md={12} sm={12}>
           <ApparelCard img={polo} text={"POLO T - SHIRT"} />
         </Col>
-        <Col md={3} sm={12}>
+        <Col lg={3} md={12} sm={12}>
           <ApparelCard img={jersey} text={"JERSEY"} />
         </Col>
-        <Col md={3} sm={12}>
+        <Col lg={3} md={12} sm={12}>
           <ApparelCard img={os} text={"OVERSIZED TEES"} />
         </Col>
-        <Col md={3} sm={12}>
+        <Col lg={3} md={12} sm={12}>
           <ApparelCard img={hoodie} text={"HOODIES"} />
         </Col>
-        <Col md={3} sm={12}>
+        <Col lg={3} md={12} sm={12}>
           <ApparelCard img={tp} text={"TRACK PANTS"} />
         </Col>
-        <Col md={3} sm={12}>
+        <Col lg={3} md={12} sm={12}>
           <ApparelCard img={jacket} text={"VARSITY JACKET"} />
         </Col>
-        <Col md={3} sm={12}>
+        <Col lg={3} md={12} sm={12}>
           <ApparelCard img={uniform} text={"UNIFORMS"} />
         </Col>
       </Row>

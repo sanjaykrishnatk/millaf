@@ -8,7 +8,8 @@ function Section3() {
   return (
     <Row className="m-0 sec-3 w-100">
       <Col
-        md={6}
+        lg={6}
+        md={12}
         sm={12}
         className={`d-flex flex-column p-5 ${
           isMobile ? "justify-content-center align-items-center" : ""
@@ -27,7 +28,8 @@ function Section3() {
         </p>
       </Col>
       <Col
-        md={6}
+        lg={6}
+        md={12}
         sm={12}
         className="d-flex justify-content-center align-items-center"
       >
