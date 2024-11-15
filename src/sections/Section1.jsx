@@ -36,13 +36,15 @@ function Section1() {
           <br />
           Curated For You
         </h1>
-        <button
+        <a
           className="hero-button my-3"
           data-aos="fade-up"
           data-aos-duration="1000"
+          href="#about"
+          style={{ textDecoration: "none" }}
         >
           Get Started
-        </button>
+        </a>
         <img
           data-aos="fade-up"
           data-aos-duration="1000"

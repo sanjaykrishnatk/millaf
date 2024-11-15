@@ -1,7 +1,7 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import teamImg from "../assets/tm.jpg";
+import teamImg from "../assets/group-img.webp";
 function Section3() {
   const isMobile = window.matchMedia("(max-width: 768px)").matches;
 
