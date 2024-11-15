@@ -14,7 +14,7 @@ function Section2() {
         At Millar Creative Lifestyle, we simplify event planning with premium,
         custom-designed apparel that embodies each client's unique style. We
         prioritize quality, creativity, and eco-friendly standards to deliver
-        exceptional, sustainable products
+        exceptional, sustainable products.
       </p>
     </div>
   );
