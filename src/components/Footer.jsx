@@ -39,7 +39,7 @@ function Footer() {
     window.open(url, "_blank");
   };
   return (
-    <div className="footer">
+    <div className="footer" id="footer">
       <Row className="mx-0 py-5 d-flex">
         <Col
           md={4}

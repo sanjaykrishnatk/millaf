@@ -16,6 +16,8 @@ function Section7() {
         className={`mx-0 d-flex flex-column py-4 ${
           isMobile ? "justify-content-center align-items-center" : ""
         }`}
+        data-aos="fade-down"
+        data-aos-duration="1000"
       >
         <h1
           className={`sec-5-header ${!isMobile ? "ms-4 mt-5 ps-4 " : "px-5"}`}
@@ -29,6 +31,8 @@ function Section7() {
         className={`mx-0 d-flex px-4 ${
           isMobile && "flex-column justify-content-center align-items-center"
         }`}
+        data-aos="fade-up"
+        data-aos-duration="1000"
       >
         <div className="d-flex flex-column justify-content-center align-items-center processCard">
           <img src={cd} alt="processImg" className="processImg" />

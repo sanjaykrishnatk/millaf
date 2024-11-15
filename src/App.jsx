@@ -9,8 +9,16 @@ import Section6 from "./sections/Section6";
 import Section7 from "./sections/Section7";
 import Section8 from "./sections/Section8";
 import Footer from "./components/Footer";
-
+import Lenis from "lenis";
+import "lenis/dist/lenis.css";
 function App() {
+  const lenis = new Lenis({
+    autoRaf: true,
+  });
+
+  lenis.on("scroll", (e) => {
+    console.log(e);
+  });
   return (
     <div className="container-fluid d-flex flex-column p-0 wrapper">
       <Section1 />

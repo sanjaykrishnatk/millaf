@@ -11,12 +11,16 @@ function Section6() {
 
   return (
     <Row className="mx-0 sec-6 pb-4">
-      <Row className="mx-0">
+      <Row className="mx-0" data-aos="fade-down" data-aos-duration="1000">
         <p className="fabric-text text-center mb-4">
           From Soft to Sturdy: Fabrics for Every Need
         </p>
       </Row>
-      <Row className="mx-0 d-flex justify-content-center align-items-center">
+      <Row
+        className="mx-0 d-flex justify-content-center align-items-center"
+        data-aos="fade-down"
+        data-aos-duration="1000"
+      >
         <div
           className="d-flex flex-column justify-content-center align-items-center mx-2"
           style={{ width: "fit-content" }}
@@ -73,7 +77,7 @@ function Section6() {
           </p>
         </div>
       </Row>
-      <Row className="mx-0">
+      <Row className="mx-0" data-aos="fade-up" data-aos-duration="1000">
         {isMobile ? (
           <p className="fabric-sub-2 my-3">
             See Something You Like? There’s Plenty More to Discover!

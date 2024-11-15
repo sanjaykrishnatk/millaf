@@ -23,12 +23,20 @@ function Section5() {
       >
         <h1
           className={`sec-5-header ${!isMobile ? "ms-4 mt-5 ps-4 " : "px-5"}`}
+          data-aos="fade-down"
+          data-aos-duration="1000"
         >
           Prints That Make a Statement
         </h1>
       </Row>
       <Row className="mx-0 px-5">
-        <Col md={4} sm={12} className="d-flex flex-column">
+        <Col
+          md={4}
+          sm={12}
+          className="d-flex flex-column"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <img src={dtf} alt="dtf" className="w-100 print-img" />
           <h6 className="m-0 apparel-card-text text-center print-text">DTF</h6>
         </Col>
@@ -37,6 +45,8 @@ function Section5() {
           sm={12}
           className="d-flex flex-column"
           style={{ height: !isMobile && "73%" }}
+          data-aos="fade-down"
+          data-aos-duration="1000"
         >
           <Row className="d-flex flex-column print-card">
             <img
@@ -61,7 +71,13 @@ function Section5() {
             </h6>
           </Row>
         </Col>
-        <Col md={4} sm={12} className="d-flex flex-column">
+        <Col
+          md={4}
+          sm={12}
+          className="d-flex flex-column"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <img src={dp} alt="dp" className="w-100 print-img" />
           <h6 className="m-0 apparel-card-text text-center print-text">
             DIGITAL PRINTING
@@ -72,6 +88,8 @@ function Section5() {
           sm={12}
           className="d-flex flex-column"
           style={{ height: "73%" }}
+          data-aos="fade-down"
+          data-aos-duration="1000"
         >
           <img
             src={fp}
@@ -85,7 +103,13 @@ function Section5() {
         </Col>
       </Row>
       <Row className="mx-0 px-5" style={{ marginTop: !isMobile && "-5%" }}>
-        <Col md={4} sm={12} className="d-flex flex-column">
+        <Col
+          md={4}
+          sm={12}
+          className="d-flex flex-column"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+        >
           <img src={hdrp} alt="dtf" className="w-100 print-img" />
           <h6
             className="m-0 apparel-card-text text-center print-text"
@@ -102,6 +126,8 @@ function Section5() {
           sm={12}
           className="d-flex flex-column"
           style={{ height: !isMobile && "73%" }}
+          data-aos="fade-up"
+          data-aos-duration="1000"
         >
           <img
             src={ip}
@@ -114,7 +140,13 @@ function Section5() {
           </h6>
         </Col>
 
-        <Col md={4} sm={12} className="d-flex flex-column">
+        <Col
+          md={4}
+          sm={12}
+          className="d-flex flex-column"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+        >
           <img src={emb} alt="emb" className="w-100 print-img" />
           <h6 className="m-0 apparel-card-text text-center print-text">
             EMBROIDERY
@@ -125,6 +157,8 @@ function Section5() {
           sm={12}
           className="d-flex flex-column"
           style={{ height: !isMobile && "73%" }}
+          data-aos="fade-up"
+          data-aos-duration="1000"
         >
           <Row className="d-flex flex-column print-card">
             <img

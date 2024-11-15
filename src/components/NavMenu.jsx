@@ -14,6 +14,8 @@ function NavMenu() {
             src={logo}
             alt="logo"
             style={{ width: "118px", height: "44px" }}
+            data-aos="fade-down"
+            data-aos-duration="1000"
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -22,15 +24,19 @@ function NavMenu() {
             className={`ms-md-auto d-flex align-items-center justify-content-center  justify-content-evenly ${
               isMobile ? "w-100" : "w-50"
             }`}
+            data-aos="fade-down"
+            data-aos-duration="1000"
           >
             <a href="#home" className="menu-text">
               HOME
             </a>
-            <a className="menu-text">ABOUT US</a>
-            <a href="#about" className="menu-text">
+            <a className="menu-text" href="#about">
+              ABOUT US
+            </a>
+            <a href="#services" className="menu-text">
               SERVICES
             </a>
-            <a href="#link" className="menu-text">
+            <a href="#footer" className="menu-text">
               CONTACT US
             </a>
           </Nav>

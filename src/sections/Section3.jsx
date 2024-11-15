@@ -6,7 +6,7 @@ function Section3() {
   const isMobile = window.matchMedia("(max-width: 768px)").matches;
 
   return (
-    <Row className="m-0 sec-3 w-100">
+    <Row className="m-0 sec-3 w-100" id="about">
       <Col
         lg={6}
         md={12}
@@ -14,6 +14,8 @@ function Section3() {
         className={`d-flex flex-column p-5 ${
           isMobile ? "justify-content-center align-items-center" : ""
         }`}
+        data-aos="fade-right"
+        data-aos-duration="1000"
       >
         <h1 className={`sec-3-header ${!isMobile ? "ms-5 mt-5 " : ""}`}>
           Styles For Every Occasion
@@ -32,6 +34,8 @@ function Section3() {
         md={12}
         sm={12}
         className="d-flex justify-content-center align-items-center"
+        data-aos="fade-up"
+        data-aos-duration="1000"
       >
         <img src={teamImg} alt="image" className="team-img rounded-4" />
       </Col>

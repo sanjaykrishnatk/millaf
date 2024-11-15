@@ -23,15 +23,29 @@ function Section1() {
           src={heroLogo}
           alt="logo"
           style={{ width: "220px", height: "140px" }}
-          className="my-3"
+          className="my-3 hero-logo"
+          data-aos="fade-up"
+          data-aos-duration="1000"
         />
-        <h1 className="my-3 text-center hero-text">
+        <h1
+          className="my-3 text-center hero-text"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           Endless Collections
           <br />
           Curated For You
         </h1>
-        <button className="hero-button my-3">Get Started</button>
+        <button
+          className="hero-button my-3"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          Get Started
+        </button>
         <img
+          data-aos="fade-up"
+          data-aos-duration="1000"
           src={downArrow}
           alt="downArrow"
           style={{

@@ -7,8 +7,10 @@ function Section2() {
         src={Sec2Img}
         alt="image"
         style={{ width: "86px", height: "82px" }}
+        data-aos="fade-down"
+        data-aos-duration="1000"
       />
-      <p className="sec2-text mt-3">
+      <p className="sec2-text mt-3" data-aos="fade-up" data-aos-duration="1000">
         At Millar Creative Lifestyle, we simplify event planning with premium,
         custom-designed apparel that embodies each client's unique style. We
         prioritize quality, creativity, and eco-friendly standards to deliver
