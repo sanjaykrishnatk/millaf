@@ -53,11 +53,11 @@ function Footer() {
           />
           <Row className="mx-0 d-flex flex-column  align-items-center">
             <div className="d-flex align-items-center">
-              {/* <FontAwesomeIcon
+              <FontAwesomeIcon
                 icon={faWhatsapp}
-                style={{ width: "fit-content" }}
+                style={{ width: "15px" }}
                 className="text-light ps-0 pe-2"
-              /> */}
+              />
               <a
                 className="m-0 footer-text p-0"
                 style={{ textDecoration: "none" }}
@@ -67,11 +67,11 @@ function Footer() {
               </a>
             </div>
             <div className="d-flex align-items-center">
-              {/* <FontAwesomeIcon
+              <FontAwesomeIcon
                 icon={faPhoneVolume}
-                style={{ width: "fit-content" }}
+                style={{ width: "15px" }}
                 className="text-light ps-0 pe-2"
-              /> */}
+              />
               <p className="m-0 footer-text p-0">
                 +91 7025407081
                 <br />
@@ -80,11 +80,11 @@ function Footer() {
             </div>
           </Row>
           <Row className="mx-0 d-flex ">
-            {/* <FontAwesomeIcon
+            <FontAwesomeIcon
               icon={faEnvelope}
-              style={{ width: "fit-content" }}
+              style={{ width: "15px" }}
               className="text-light ps-0 pe-2"
-            /> */}
+            />
             <a
               href="mailto:info@millarcreativelifestyle.com"
               className="m-0 footer-text p-0"
