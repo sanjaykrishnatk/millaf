@@ -17,7 +17,7 @@ function Section3() {
         data-aos="fade-right"
         data-aos-duration="1000"
       >
-        <h1 className={`sec-3-header ${!isMobile ? "ms-5 mt-5 " : ""}`}>
+        <h1 className={`sec-3-header ${!isMobile ? "ms-5 mt-2 " : ""}`}>
           Styles For Every Occasion
         </h1>
         <p className={`sec-3-text ${!isMobile ? "ms-5 mt-4 " : ""}`}>

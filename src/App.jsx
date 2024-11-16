@@ -16,9 +16,6 @@ function App() {
     autoRaf: true,
   });
 
-  lenis.on("scroll", (e) => {
-    console.log(e);
-  });
   return (
     <div className="container-fluid d-flex flex-column p-0 wrapper">
       <Section1 />
