@@ -3,13 +3,12 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import logo from "../assets/logo.png";
+
 function NavMenu() {
-  const isMobile = window.matchMedia("(max-width: 768px)").matches;
   return (
-    <Navbar expand="lg" className="bg-body-transparent navbar-dark pt-5">
+    <Navbar className="bg-body-transparent navbar-dark pt-5" expand={false}>
       <Container>
         <Navbar.Brand href="#home">
-          {" "}
           <img
             src={logo}
             alt="logo"
@@ -21,9 +20,7 @@ function NavMenu() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav
-            className={`ms-md-auto d-flex align-items-center justify-content-center  justify-content-evenly ${
-              isMobile ? "w-100" : "w-50"
-            }`}
+            className="ms-auto d-flex flex-column align-items-center justify-content-center"
             data-aos="fade-down"
             data-aos-duration="1000"
           >

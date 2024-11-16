@@ -5,8 +5,8 @@ function Features({ text }) {
   return (
     <div
       className={`${
-        isMobile && "my-2"
-      } d-flex justify-content-center align-items-center mx-2`}
+        isMobile ? "my-2" : "justify-content-center"
+      } d-flex  align-items-center mx-2`}
     >
       <img
         src={point}

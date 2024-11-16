@@ -81,16 +81,24 @@ function Section4() {
       </Row>
       <Row className="mx-0 d-flex flex-column">
         <div
-          className="d-flex justify-content-center align-items-center flex-column"
+          className={`d-flex   flex-column ${
+            !isMobile && "justify-content-center align-items-center"
+          }`}
           data-aos="fade-up"
           data-aos-duration="1000"
         >
-          <h6 className={`${isMobile ? "mt-5" : "mt-4"} mb-4 features-text`}>
+          <h6
+            className={`${
+              isMobile ? "mt-5" : "mt-4"
+            } mb-4 features-text text-center`}
+          >
             Crafted for Comfort and Strength
           </h6>
           <div
-            className={`d-flex justify-content-center align-items-center ${
-              isMobile && "flex-column"
+            className={`d-flex  ${
+              isMobile
+                ? "flex-column"
+                : "justify-content-center align-items-center"
             }`}
           >
             <Features text={"Wrinkle-Free Elegance"} />
