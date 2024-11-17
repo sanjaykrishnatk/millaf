@@ -172,7 +172,7 @@ function Section5() {
             </h6>
           </Row>
           <Row
-            className="d-flex flex-column print-card"
+            className="d-flex flex-column print-card mb-3 mb-md-0"
             style={{ height: "65%" }}
           >
             <img
